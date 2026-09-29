@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Riddhima Agrawal | Software Engineer portfolio showcasing projects, education, skills, and achievements." />
+    <title>Riddhima Agrawal | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <nav class="navbar container" aria-label="Main navigation">
+                <a href="#home" class="brand" aria-label="Riddhima Agrawal home">
+                    <span class="brand-mark">RA</span>
+                    <span class="brand-text">Riddhima</span>
+                </a>
+
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-panel">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"
+                        aria-pressed="true">
+                        <span class="toggle-track">
+                            <span class="toggle-thumb"></span>
+                        </span>
+                        <span class="toggle-label">Dark</span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main id="home">
+            <section class="hero container reveal">
+                <div class="hero-content">
+                    <p class="eyebrow">Software Engineer</p>
+                    <h1>
+                        Hello, I’m <span class="highlight">Riddhima Agrawal</span>
+                    </h1>
+                    <h2>
+                        <span class="static-text">I build </span>
+                        <span id="typedText" class="typed-text" aria-live="polite"></span>
+                    </h2>
+                    <p class="hero-copy">
+                        Dedicated Software Engineer with a focus on writing modular code, solving complex problems,
+                        and crafting scalable, performance-driven web applications.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#projects">View Work</a>
+                        <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+                    </div>
+                    <ul class="quick-stats" aria-label="Highlights">
+                        <li><strong>4+</strong><span>Projects</span></li>
+                        <li><strong>2</strong><span>Hackathons</span></li>
+                        <li><strong>1</strong><span>Focused Domain</span></li>
+                    </ul>
+                </div>
+
+                <div class="hero-visual" aria-label="Profile card">
+                    <div class="profile-card">
+                        <div class="profile-glow"></div>
+                        <div class="avatar-frame">
+                            <div class="avatar-badge">RA</div>
+                        </div>
+                        <div class="profile-meta">
+                            <span class="meta-label">Currently</span>
+                            <h3>Software Engineer</h3>
+                            <p>Crafting modular, responsive digital experiences.</p>
+                        </div>
+                        <div class="mini-grid">
+                            <div>
+                                <span>Focus</span>
+                                <strong>Web Apps</strong>
+                            </div>
+                            <div>
+                                <span>Learning</span>
+                                <strong>React</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section container reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">About</p>
+                    <h2>Building thoughtful digital experiences.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <article class="glass-card about-card">
+                        <p>
+                            I am a software engineer driven by clean architecture, elegant interfaces, and efficient
+                            problem-solving.
+                            My work combines thoughtful front-end engineering with strong fundamentals in JavaScript,
+                            HTML, CSS,
+                            and modern web concepts to build responsive, performant solutions that feel intuitive.
+                        </p>
+                        <p>
+                            I enjoy turning complex ideas into structured, scalable experiences and continuously
+                            learning new tools,
+                            patterns, and workflows to improve product quality.
+                        </p>
+                    </article>
+
+                    <aside class="glass-card education-card">
+                        <div class="card-header">
+                            <p class="eyebrow">Education</p>
+                        </div>
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p class="institution">S.S. Jain Subodh P.G. College, Jaipur</p>
+                        <p class="duration">2024 – 2027</p>
+                    </aside>
+
+                    <article class="glass-card stack-card">
+                        <div class="card-header">
+                            <p class="eyebrow">Tech Stack</p>
+                        </div>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>JavaScript ES6+</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>React</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>Web APIs</span>
+                            <span>OOPs</span>
+                            <span>Responsive Design</span>
+                            <span>State Management</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects" class="section container reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">Featured Work</p>
+                    <h2>Selected projects and builds.</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card glass-card">
+                        <div class="project-head">
+                            <h3>Real-time Weather App</h3>
+                            <a href="https://riddhi-weather.netlify.app" target="_blank" rel="noreferrer"
+                                aria-label="Open Real-time Weather App">
+                                ↗
+                            </a>
+                        </div>
+                        <p>Weather dashboard that fetches live conditions using Web APIs and surfaces user-friendly
+                            insights.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Web APIs</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card">
+                        <div class="project-head">
+                            <h3>Smart Alarm Clock</h3>
+                            <a href="https://riddhi-alarm.netlify.app/" target="_blank" rel="noreferrer"
+                                aria-label="Open Smart Alarm Clock">
+                                ↗
+                            </a>
+                        </div>
+                        <p>Interactive time-based interface designed to deliver a clean and practical alarm experience.
+                        </p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card">
+                        <div class="project-head">
+                            <h3>Interactive To-Do List</h3>
+                            <a href="https://riddhi-todolist.netlify.app" target="_blank" rel="noreferrer"
+                                aria-label="Open Interactive To-Do List">
+                                ↗
+                            </a>
+                        </div>
+                        <p>Task planning interface with a polished flow for adding, updating, and tracking daily
+                            priorities.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card">
+                        <div class="project-head">
+                            <h3>Interactive Web Calculator</h3>
+                            <a href="https://riddhicalculator.netlify.app/" target="_blank" rel="noreferrer"
+                                aria-label="Open Interactive Web Calculator">
+                                ↗
+                            </a>
+                        </div>
+                        <p>Clean, functional calculator UI built for speed, accuracy, and a smooth user interaction
+                            flow.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="achievements" class="section container reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">Achievements</p>
+                    <h2>Recognition and participation.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item glass-card">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge">🏆</span>
+                            <h3>Second Prize - Technitude 2026 Hackathon</h3>
+                            <p>S.S. Jain Subodh P.G. College, Jaipur</p>
+                            <small>Feb 2026</small>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item glass-card">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge">🚀</span>
+                            <h3>Participant - 24-Hour Non-stop Shankara Global Hackathon</h3>
+                            <p>Shankara Group of Institutions</p>
+                            <small>Feb 2026</small>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item glass-card">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge">🤖</span>
+                            <h3>Participant - AESTR ALPHA AI SUMMIT 2026</h3>
+                            <p>Suresh Gyan Vihar University</p>
+                            <small>Feb 2026</small>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item glass-card">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge">💡</span>
+                            <h3>Participant - Shankara Global Hackathon 2025</h3>
+                            <p>Shankara Group of Institutions</p>
+                            <small>Mar 2025</small>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section container reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let’s build something meaningful.</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card glass-card">
+                        <p>Available for opportunities, collaborations, and meaningful product work.</p>
+                        <ul class="contact-list">
+                            <li>
+                                <span>Email</span>
+                                <a href="mailto:riddhima2110@gmail.com">riddhima2110@gmail.com</a>
+                            </li>
+                            <li>
+                                <span>LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/riddhima-agrawal-b49b86402" target="_blank"
+                                    rel="noreferrer">linkedin.com/in/riddhima-agrawal</a>
+                            </li>
+                            <li>
+                                <span>GitHub</span>
+                                <a href="https://github.com/RIDDHIMA2110" target="_blank"
+                                    rel="noreferrer">github.com/RIDDHIMA2110</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form glass-card" id="contactForm">
+                        <div class="field-group">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your name" required />
+                        </div>
+
+                        <div class="field-group">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                        </div>
+
+                        <div class="field-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>© <span id="year"></span> Riddhima Agrawal. All rights reserved.</p>
+                <div class="social-links" aria-label="Social links">
+                    <a href="https://www.linkedin.com/in/riddhima-agrawal-b49b86402" target="_blank"
+                        rel="noreferrer">LinkedIn</a>
+                    <a href="https://github.com/RIDDHIMA2110" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="mailto:riddhima2110@gmail.com">Email</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">Message sent successfully.</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
